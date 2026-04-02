@@ -1,0 +1,28 @@
+server:
+  port: 8080
+
+# Disable database deep-check as it requires a workspace in the request context
+management:
+  health:
+    db:
+      enabled: false
+  tracing:
+    enabled: false
+
+info:
+  app:
+    name: studio
+
+spring:
+  application.name: studio
+  flyway.enabled: false
+  security:
+    user:
+      name: user
+      password: password
+
+logging:
+  level:
+    Exposed: DEBUG
+    org.jetbrains.exposed.sql.statements: DEBUG
+    org.jetbrains.exposed.sql.transactions: DEBUG

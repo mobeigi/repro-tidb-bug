@@ -1,0 +1,45 @@
+micros:
+  rest.csrf.trusted-referrers:
+    - https://studio.atlassian.com
+    - https://studio-next.atlassian.com
+
+tms:
+  asap:
+    aud: "micros/tms"
+  urls:
+    "us-west-2":
+      region: "us-west-2"
+      url: "https://titan-tms-us-west-2.prod.services.kitt-inf.net"
+    "us-east-1":
+      region: "us-east-1"
+      url: "https://titan-tms-us-east-1.prod.services.kitt-inf.net"
+    "ca-central-1":
+      region: "ca-central-1"
+      url: "https://titan-tms-ca-central-1.prod.services.kitt-inf.net"
+    "eu-central-1":
+      region: "eu-central-1"
+      url: "https://titan-tms-eu-central-1.prod.services.kitt-inf.net"
+    "eu-central-2":
+      region: "eu-central-2"
+      url: "https://titan-tms-eu-central-2.prod.services.kitt-inf.net"
+    "eu-west-1":
+      region: "eu-west-1"
+      url: "https://titan-tms-eu-west-1.prod.services.kitt-inf.net"
+    "eu-west-2":
+      region: "eu-west-2"
+      url: "https://titan-tms-eu-west-2.prod.services.kitt-inf.net"
+    "ap-northeast-1":
+      region: "ap-northeast-1"
+      url: "https://titan-tms-ap-northeast-1.prod.services.kitt-inf.net"
+    "ap-northeast-2":
+      region: "ap-northeast-2"
+      url: "https://titan-tms-ap-northeast-2.prod.services.kitt-inf.net"
+    "ap-southeast-1":
+      region: "ap-southeast-1"
+      url: "https://titan-tms-ap-southeast-1.prod.services.kitt-inf.net"
+    "ap-southeast-2":
+      region: "ap-southeast-2"
+      url: "https://titan-tms-ap-southeast-2.prod.services.kitt-inf.net"
+    "ap-south-1":
+      region: "ap-south-1"
+      url: "https://titan-tms-ap-south-1.prod.services.kitt-inf.net"

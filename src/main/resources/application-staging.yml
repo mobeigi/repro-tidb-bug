@@ -1,0 +1,19 @@
+micros:
+  rest.csrf.trusted-referrers:
+    - https://atlassian-studio.stg-east.frontend.public.atl-paas.net
+    - https://studio.stg.atlassian.com
+    - https://studio-next.stg.atlassian.com
+
+tms:
+  asap:
+    aud: "micros/tms"
+  urls:
+    "us-east-1":
+      region: "us-east-1"
+      url : "https://titan-tms-us-east-1.stg.services.kitt-inf.net"
+    "us-west-2":
+      region: "us-west-2"
+      url: "https://titan-tms-us-west-2.stg.services.kitt-inf.net"
+    "eu-central-1":
+      region: "eu-central-1"
+      url: "https://titan-tms-eu-central-1.stg.services.kitt-inf.net"

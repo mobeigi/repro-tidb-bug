@@ -1,0 +1,19 @@
+micros:
+  rest.csrf.trusted-referrers:
+    - https://atlassian-studio.stg-east.frontend.public.atl-paas.net
+    - https://studio.stg.atlassian.com
+    - https://studio-next.stg.atlassian.com
+
+tms:
+  asap:
+    aud: "micros/tms"
+  urls:
+    # Use staging sandbox for local testing
+    "us-west-2":
+      region: "us-west-2"
+      url: "https://titan-tms-us-west-2.stg.services.kitt-inf.net"
+
+spring:
+  graphql:
+    graphiql:
+      enabled: true

@@ -1,0 +1,22 @@
+# IDE and project config
+.gradle/
+.idea/*
+!.idea/codeStyles
+!.idea/inspectionProfiles
+!.idea/runConfigurations
+!.idea/dataSources.xml
+!.idea/encodings.xml
+!.idea/icon.svg
+**/*.iml
+
+# Gradle cache (not needed, public artifacts fetched from Maven Central)
+gradle-cache/
+
+# Build output and artefacts
+out
+build
+**/build/
+**/target/
+**/*.bak
+__pycache__/
+.kotlin/

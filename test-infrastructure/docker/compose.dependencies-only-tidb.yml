@@ -1,0 +1,16 @@
+services:
+  tidb:
+    image: pingcap/tidb:v8.5.5
+    container_name: integration-testing-tidb
+    ports:
+      - "4000:4000"
+    command:
+      - --store=unistore
+      - --path=/tmp/tidb
+      - --host=0.0.0.0
+    healthcheck:
+      test: ["CMD-SHELL", "mysql -h 127.0.0.1 -P 4000 -u root -e 'SELECT 1'"]
+      interval: 15s
+      retries: 5
+      start_period: 30s
+      timeout: 10s

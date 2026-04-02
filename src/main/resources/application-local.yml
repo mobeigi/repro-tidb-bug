@@ -1,0 +1,4 @@
+debug: false # Set to true if debugging Spring
+
+spring.devtools.restart.enabled: true
+error.include-stacktrace: on-trace-param
